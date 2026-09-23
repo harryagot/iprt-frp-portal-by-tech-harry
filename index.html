@@ -63,7 +63,7 @@
             font-size: 13px;
         }
         
-        /* Estilo para sa bagong Donation Tab sa pinakababa */
+        /* Estilo para sa Donation Tab sa pinakababa */
         .donation-tab {
             width: 100%;
             max-width: 400px;
@@ -118,8 +118,8 @@
             <span class="label">Chrome</span>
         </a>
 
-        <!-- Settings -->
-        <a href="intent:#Intent;action=android.settings.SETTINGS;end;" class="portal-btn">
+        <!-- Settings (Fixed Intent Link) -->
+        <a href="intent://#Intent;component=com.android.settings/.Settings;end;" class="portal-btn">
             <span class="icon">⚙️</span>
             <span class="label">Settings</span>
         </a>
@@ -148,14 +148,14 @@
             <span class="label">Samsung Internet</span>
         </a>
 
-        <!-- Easy Share -->
-        <a href="intent://#Intent;package=com.vivo.easyshare;end;" class="portal-btn">
-            <span class="icon">🔄</span>
-            <span class="label">Easy Share</span>
+        <!-- Galaxy Store -->
+        <a href="intent://details?id=com.samsung.android.app.galaxyapps#Intent;scheme=market;package=com.sec.android.app.samsungapps;end;" class="portal-btn">
+            <span class="icon">🛍️</span>
+            <span class="label">Galaxy Store</span>
         </a>
 
-        <!-- Samsung Files -->
-        <a href="intent://#Intent;package=com.sec.android.app.myfiles;end;" class="portal-btn">
+        <!-- Samsung Files / My Files -->
+        <a href="intent://#Intent;package=com.sec.android.app.myfiles;action=android.intent.action.VIEW;end;" class="portal-btn">
             <span class="icon">📂</span>
             <span class="label">Samsung Files</span>
         </a>
