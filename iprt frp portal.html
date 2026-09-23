@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPRT FRP Portal by Tech Harry</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #0b131e;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: #00ff66;
+            text-align: center;
+            letter-spacing: 1px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            width: 100%;
+            max-width: 400px;
+        }
+        .portal-btn {
+            background-color: #11221c;
+            border: 2px solid #00ff66;
+            border-radius: 12px;
+            padding: 15px 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0, 255, 102, 0.2);
+            transition: 0.2s ease;
+        }
+        .portal-btn:active {
+            background-color: #00ff66;
+            color: #0b131e;
+        }
+        .icon {
+            font-size: 24px;
+            margin-bottom: 6px;
+        }
+        .label {
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>iPRT FRP PORTAL<br><span style="font-size: 14px; color: #fff;">by Tech Harry</span></h1>
+
+    <div class="grid-container">
+        <!-- WiFi Setup -->
+        <a href="intent:#Intent;action=android.settings.WIFI_SETTINGS;end;" class="portal-btn">
+            <span class="icon">📶</span>
+            <span class="label">WiFi Setup</span>
+        </a>
+
+        <!-- Dial -->
+        <a href="tel:" class="portal-btn">
+            <span class="icon">📞</span>
+            <span class="label">Dial</span>
+        </a>
+
+        <!-- YouTube -->
+        <a href="https://www.youtube.com" class="portal-btn">
+            <span class="icon">▶️</span>
+            <span class="label">YouTube</span>
+        </a>
+
+        <!-- Chrome -->
+        <a href="https://www.google.com" class="portal-btn">
+            <span class="icon">🌐</span>
+            <span class="label">Chrome</span>
+        </a>
+
+        <!-- Settings -->
+        <a href="intent:#Intent;action=android.settings.SETTINGS;end;" class="portal-btn">
+            <span class="icon">⚙️</span>
+            <span class="label">Settings</span>
+        </a>
+
+        <!-- Maps -->
+        <a href="https://maps.google.com" class="portal-btn">
+            <span class="icon">📍</span>
+            <span class="label">Maps</span>
+        </a>
+
+        <!-- Files -->
+        <a href="intent:#Intent;action=android.intent.action.VIEW;type=resource/folder;end;" class="portal-btn">
+            <span class="icon">📁</span>
+            <span class="label">Files</span>
+        </a>
+
+        <!-- Assistant -->
+        <a href="intent:#Intent;action=android.intent.action.ASSIST;end;" class="portal-btn">
+            <span class="icon">🤖</span>
+            <span class="label">Assistant</span>
+        </a>
+
+        <!-- Samsung Internet -->
+        <a href="intent://samsunginternet.com#Intent;package=com.sec.android.app.sbrowser;end;" class="portal-btn">
+            <span class="icon">🌐</span>
+            <span class="label">Samsung Internet</span>
+        </a>
+
+        <!-- Easy Share -->
+        <a href="intent://#Intent;package=com.vivo.easyshare;end;" class="portal-btn">
+            <span class="icon">🔄</span>
+            <span class="label">Easy Share</span>
+        </a>
+
+        <!-- Samsung Files -->
+        <a href="intent://#Intent;package=com.sec.android.app.myfiles;end;" class="portal-btn">
+            <span class="icon">📂</span>
+            <span class="label">Samsung Files</span>
+        </a>
+
+        <!-- Mi Files -->
+        <a href="intent://#Intent;package=com.android.fileexplorer;end;" class="portal-btn">
+            <span class="icon">📂</span>
+            <span class="label">Mi Files</span>
+        </a>
+
+        <!-- Calculator -->
+        <a href="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.APP_CALCULATOR;end;" class="portal-btn">
+            <span class="icon">🔢</span>
+            <span class="label">Calculator</span>
+        </a>
+
+        <!-- Dev FB Contact -->
+        <a href="https://www.facebook.com/mwgrmwgr/" class="portal-btn" target="_blank">
+            <span class="icon">👤</span>
+            <span class="label">Dev FB Contact</span>
+        </a>
+    </div>
+
+</body>
+</html>
